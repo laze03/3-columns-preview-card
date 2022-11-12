@@ -23,6 +23,14 @@ body {
   background-color: $color;
 }
 
+@media only screen and (max-width: 400px) {
+  body {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .section {
   width: 31rem;
   font-family: 'Lexend Deca', sans-serif;
@@ -55,6 +63,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .section-1 {
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+
 .section-2 {
   background-color: $blue;
 
@@ -69,5 +83,11 @@ body {
 
   .btn {
     color: $green;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-3 {
+    border-radius: 0 0 1rem 1rem;
   }
 }
