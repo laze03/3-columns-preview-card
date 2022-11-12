@@ -1,0 +1,73 @@
+$orange: hsl(31, 77%, 52%);
+$blue: hsl(184, 100%, 22%);
+$green: hsl(179, 100%, 13%);
+$p: hsla(0, 0%, 100%, 0.75);
+$color:hsl(0, 0%, 95%);
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color;
+}
+
+.section {
+  width: 31rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  color: $p;
+  padding: 5rem 4rem;
+  line-height: 1.5;
+
+  h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 3rem 0;
+    color: $color;
+  }
+
+  .btn {
+    background-color: $color;
+    display: inline-block;
+    margin: 6rem 0 0;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+}
+
+.section-1 {
+  background-color: $orange;
+  border-radius: 1rem 0 0 1rem;
+
+  .btn {
+    color: $orange;
+  }
+}
+
+.section-2 {
+  background-color: $blue;
+
+  .btn {
+    color: $blue;
+  }
+}
+
+.section-3 {
+  background-color: $green;
+  border-radius: 0 1rem 1rem 0;
+
+  .btn {
+    color: $green;
+  }
+}

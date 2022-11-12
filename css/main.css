@@ -1,0 +1,64 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.section {
+  width: 31rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  padding: 5rem 4rem;
+  line-height: 1.5;
+}
+.section h1 {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 3rem 0;
+  color: hsl(0deg, 0%, 95%);
+}
+.section .btn {
+  background-color: hsl(0deg, 0%, 95%);
+  display: inline-block;
+  margin: 6rem 0 0;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.section-1 {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 1rem 0 0 1rem;
+}
+.section-1 .btn {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.section-2 {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.section-2 .btn {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.section-3 {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 1rem 1rem 0;
+}
+.section-3 .btn {
+  color: hsl(179deg, 100%, 13%);
+}
+
+/*# sourceMappingURL=main.css.map */
